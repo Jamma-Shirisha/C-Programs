@@ -1,0 +1,5 @@
+SizeOfPrimitiveDataTypes:SizeOfPrimitiveDataTypes.o
+	gcc SizeOfPrimitiveDataTypes -o SizeOfPrimitiveDataTypes
+
+SizeOfPrimitiveDataTypes.o:SizeOfPrimitiveDataTypes.c
+	gcc -c SizeOfPrimitiveDataTypes.c
